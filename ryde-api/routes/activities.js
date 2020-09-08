@@ -2,7 +2,10 @@ const express = require("express");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectId;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> df24037fd9de3a747e81b3497f7ea077045af299
 const routes = express.Router();
 
 // GET ALL ACTIVITIES
