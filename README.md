@@ -1,4 +1,4 @@
-# Welcome to ryde
+# Welcome to ryde 🏃
 
 ### Backstory
 
