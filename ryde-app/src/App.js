@@ -1,22 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
 import Main from "./pages/main";
+import Login from "./pages/login";
 
 
-export default class App extends Component{
-
-
-  render(){
+export default function App(){
     return (
       <>
         <Router>
           <Switch>
-            <Route exact path="/" component={Main} />
+            <Route exact path="/" component={Login} />
           </Switch>
         </Router>
       </>
     );
-  }
  
 }
